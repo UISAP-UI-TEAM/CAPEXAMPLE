@@ -1,0 +1,3 @@
+
+@server=http://localhost:4004
+@service=/odata/v4/catalog/Books

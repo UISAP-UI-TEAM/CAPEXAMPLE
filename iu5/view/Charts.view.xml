@@ -1,0 +1,26 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    controllerName="charts.controller.Charts"
+    xmlns:f="sap.f"
+    xmlns:l="sap.ui.layout"
+    displayBlock="true"
+>
+    <Page title="Tosyalı Holding Veriler">
+        <content>
+            <VBox>
+                <items>
+                    <Panel headerText="SAYFA1 ->">
+                        <l:Grid containerQuery="true" defaultSpan="XL4 L4 M4 S12" class="w-100 pa-0">
+                            <Button text="Kipat Ekle" press="onPress" />
+                            <Button text="Kipat Çek" press="onPress2" />
+                        </l:Grid>
+                    </Panel>
+                </items>
+            </VBox>
+
+
+        </content>
+    </Page>
+</mvc:View>
