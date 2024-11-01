@@ -1,3 +1,14 @@
-
 @server=http://localhost:4004
-@service=/odata/v4/catalog/Books
+@service=/odata/v4/admin
+
+####
+GET {{server}}{{service}}
+####
+GET {{server}}{{service}}/MaintenanceItem
+#### 
+POST {{server}}{{service}}/MaintenanceItem
+Content-Type: application/json
+
+{
+    "problemDescription":"test"
+}
